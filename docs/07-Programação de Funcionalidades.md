@@ -6,6 +6,7 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
+<<<<<<< HEAD
 > **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
@@ -13,3 +14,18 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+=======
+
+|ID    | Descrição do Requisito  | ARTEFATOS PRODUZIDOS | ALUNO(A) RESPONSÁVEL  |
+|------|-------------------------|----------------------|------------------------|
+|RF-001| A aplicação deve permitir criar uma conta | - |    Maria / Mauricio |
+|RF-002| A aplicação deve permitir a exclusão da conta  | - |   Estefany   |
+|RF-003| A aplicação deve permitir editar o perfil do usuário | - |    Estefany / Victor   |
+|RF-004| A aplicação deve permitir integração com outras agendas digitais | - |  Emyli
+|RF-005| A aplicação deve permitir consultar históricos de agendamentos  | - |   Victor   |
+|RF-006| A aplicação deve permitir que o usuário gerencie horários disponíveis  | - |   Emyli    |
+|RF-007|A aplicação deve permitir realizar pagamentos   | - |    Mauricio  |
+|RF-008| A aplicação deve permitir um sistema de notificações quando houver conflitos com outras  agendas digitais   | - |  Ana Clara |
+|RF-009| A aplicação deve permitir um sistema de notificações de compromissos agendados  | -|   Ana Clara   |
+
+>>>>>>> parent of d41c96a (Revert "Programa de funcionalidades")

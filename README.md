@@ -1,23 +1,34 @@
-# TÍTULO DO PROJETO
+# PLAN IT
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`3° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O PlanIt é uma aplicação inovadora que proporciona uma gestão efetiva de agenda, 
+projetada para atender à necessidade de profissionais de diferentes áreas. 
+O processo de agendamento ainda hoje causa "dor de cabeça", de agendas 
+desorganizadas á clientes desavisados que desmarcam compromissos de última hora. Por 
+meio da tecnologia buscamos otimizar o processo de organização de compromissos, 
+envio de lembretes, sincronização de horários dentre outros. 
+Afim de impulsionar negócios o PlanIt dispõe de funcionalidades que incluem 
+personalização de datas e horários, serviços e valores, notificações em tempo real aos 
+envolvidos, integração com outras agendas digitais, promovendo a organização de 
+agendas e uma experiência única ao cliente. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Clara Santos de Paula
+* Emily Gabriela Avelino Rodrigues
+* Estefany Bianca de Paula
+* Maria Eduarda Rodrigues Antunes
+* Mauricio Thales Alves de Azevedo Neto
+* Vitor Hugo Braga da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Udo Fritzke Junior
 
 ## Instruções de utilização
 
