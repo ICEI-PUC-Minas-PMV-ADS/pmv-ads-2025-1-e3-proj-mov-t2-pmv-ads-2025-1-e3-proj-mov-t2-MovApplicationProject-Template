@@ -1,0 +1,96 @@
+# .NET
+bin/
+obj/
+artifacts/
+
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Configurações do Visual Studio 2022
+.vs2022/
+
+# Arquivos de usuário do Visual Studio (evitar que sejam compartilhados)
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Arquivos temporários do NuGet
+.nuget/
+
+# Arquivos de pacote do NuGet
+packages/
+
+# Arquivos de dependência do .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de banco de dados de desenvolvimento local (SQL Server, SQLite)
+*.mdf
+*.ldf
+*.sql
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional (Windows, Mac, Linux)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Arquivos do Node.js e React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Arquivos do React Native (para evitar problemas com builds do frontend)
+**/build/
+**/dist/
+**/tmp/
+**/coverage/
+
+# Arquivos de configuração do React Native (build, cache, etc)
+.expo/
+.expo-shared/
+
+# Arquivos de banco de dados de Entity Framework (caso utilize local DB)
+*.dbmdl
+
+# Arquivos de cache do npm/yarn
+npm/
+yarn/
+
+# Arquivos de configurações específicas do ambiente
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Docker
+# Arquivos criados durante a execução do Docker
+.docker/
+docker-compose.override.yml
+docker-compose.yml
+
+# Docker volumes
+docker-compose.override.yml
+
+# Arquivos específicos do Visual Studio (suporte ao Docker)
+.vs2022/
+.vs2019/
+.vs2017/
+
+# Arquivos temporários criados pelo Docker
+**/tmp/
+**/build/
+
+# Arquivos de configuração do Docker (se não forem compartilhados)
+Dockerfile.prod
+.dockerignore
+
+# Arquivos temporários do Docker
+docker-compose.override.yml

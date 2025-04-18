@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# NEXTFLIX
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Eixo 3 - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`Turma 2 - 2025/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Os serviços de streaming e cinemas oferecem uma ampla variedade de conteúdos, tornando a escolha de filmes desafiadora. A NextFlix surge para ajudar os indecisos, oferecendo reviews e opiniões sobre filmes e séries, facilitando a decisão do espectador sobre o que assistir.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* André Marcelo Lewis Dexheimer 
+* André Samuel Teixeira Fernandes
+* Artur Maciel de Assis Pinto
+* Eduardo Coutinho da Silva Junior
+* Giovanni Gonçalves Shintaku
+* Hana Karolina Neves Siqueira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Udo Fritzke Junior
 
 ## Instruções de utilização
 
