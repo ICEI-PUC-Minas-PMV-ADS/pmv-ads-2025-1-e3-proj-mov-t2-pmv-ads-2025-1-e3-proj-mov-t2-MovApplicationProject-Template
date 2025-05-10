@@ -1,87 +1,156 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Neste projeto, optou-se pela aplicação da metodologia ágil Scrum, amplamente conhecida pelos membros da equipe e reconhecida por sua abordagem completa e eficiente para o gerenciamento e a distribuição de tarefas. Inspirado no rugby, o Scrum utiliza o conceito de "scrum" do esporte, em que os jogadores se reúnem rapidamente para alinhar estratégias. Seguindo essa analogia, a metodologia promove reuniões diárias curtas, conhecidas como daily scrums, que têm como objetivo:
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+- Atualizar o progresso do projeto.
+
+- Identificar obstáculos e desafios.
+
+- Planejar os próximos passos de forma colaborativa e transparente.
+
+Essa abordagem garante maior organização, agilidade e adaptabilidade ao longo do desenvolvimento, permitindo que a equipe responda rapidamente a mudanças e entregue valor de forma incremental e consistente.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| AMBIENTE | PLATAFORMA | LINK DE ACESSO | DESCRIÇÃO
+|------------|---------------| ----------- |--------------- |
+| Repositório de Código | GitHub | [Repositorio do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e3-proj-mov-t2-planit) | Hospedagem do código fonte do projeto, com versionamento e controle de branches. |
+| Gestão de Tarefas | GitHub | [Quadro Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1617/views/1) | Quadro Kanban para organização das tarefas do projeto, com colunas como "Backlog", "Ready", "In Progress", "In Review" e "Done". |
+| Comunicação | Discord | [Canal de Comunicação](https://discord.com/channels/1273971886317113374/1273971886849654886) | Comunicação da equipe em canais específicos para discussões técnicas e gerais. |
+| Design de Interfaces | Figma |[Projeto do Figma](https://www.figma.com/design/t7g0pN6tah9DZ0iyW6N3Wa/Mobile?node-id=0-1&p=f) | Prototipagem e design das interfaces do aplicativo móvel. |
+| Hospedagem | --- | [Hospedagem do Projeto]() |Hospedagem do backend e frontend projeto, além do Banco de Dados. |
+|Banco de Dados| --- | [Banco de Dados]() | Banco de dados em tempo real e autenticação para aplicativos móveis. |
+| Desenvolvimento Mobile | Expo | [Dev Mobile]() | IDE para desenvolvimento de aplicativos, com emuladores e ferramentas de debug. |
+
+
+## Frameworks e Tecnologias para Desenvolvimento Mobile
+
+| TECNOLOGIA/FERRAMENTA | DESCRIÇÃO
+|------------|---------------|
+| React Native | Framework mantido pelo Facebook, baseado em React e JavaScript. |
+| Expo | Ferramenta que facilita o desenvolvimento e teste de aplicativos React Native. |
 
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+[Git](https://git-scm.com/).
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão estável já testada do software.
+
+## Branches Individuais
+
+- `ana/docs`: Para modificaçõs e acréscimos a documentações especificas;
+- `Branch---Emily`: Para modificações e acréscimos tanto da documentação quanto código;
+- `maria`: Para modificaçõs e acréscimos a documentações especificas;
+- `Estefany/Documentacao`: Para modificaçõs e acréscimos a documentações especificas.
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `documentation`: melhorias ou acréscimos à documentação;
+- `bug`: uma funcionalidade encontra-se com problemas;
+- `enhancement`: uma funcionalidade precisa ser melhorada;
+- `feature`: uma nova funcionalidade precisa ser introduzida;
+- `Design`: Criação do modelo feito no figma;
+- `Help Wanted`: Sinalização de um problema que exige maior atenção por parte dos 
+membros do grupo;
+- `Question`: Requisição de mais informações para que a tarefa possa ser concluída;
+- `Figma`: telas do site/esboços;
+- `Tests`: testes das páginas feitas;
+- `Wontfix`: não será trabalhado.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Clique [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e3-proj-mov-t2-planit/labels) para acessar as labels.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+![Labels](/docs/img/labels-planit.png)
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para o processo de desenvolvimento. A organização da equipe é a seguinte:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+### Scrum Master
+Responsável: Alternativo entre os membros da equipe.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+Função: Garantir que o processo Scrum seja seguido, remover impedimentos e facilitar a comunicação e colaboração entre os membros da equipe.
+
+### Product Owner
+Responsável: Alternativo entre os membros da equipe.
+
+Função: Definir as prioridades do produto, gerenciar o backlog e garantir que a equipe esteja desenvolvendo o que agrega valor ao projeto.
+
+### Equipe de Desenvolvimento
+Membros:
+
+- Ana Clara Santos de Paula;
+
+- Emily Gabriela Avelino Rodrigues;
+
+- Estefany Bianca de Paula;
+
+- Maria Eduarda Rodrigues Antunes;
+
+- Mauricio Thales Alves de Azevedo Neto;
+
+- Vitor Hugo Braga da Silva.
+
+Função: Desenvolver as funcionalidades do projeto, realizar testes e garantir a entrega de incrementos funcionais ao final de cada sprint.
+
+### Equipe de Design
+
+Membros:
+
+- Ana Clara Santos de Paula;
+
+- Emily Gabriela Avelino Rodrigues;
+
+- Estefany Bianca de Paula;
+
+- Maria Eduarda Rodrigues Antunes;
+
+- Mauricio Thales Alves de Azevedo Neto;
+
+- Vitor Hugo Braga da Silva.
+
+Função: Criar a interface do usuário (UI), garantir a experiência do usuário (UX) e desenvolver elementos visuais para o projeto.
+
+#### Observações
+A alternância nos papéis de Scrum Master e Product Owner permite que todos os membros da equipe desenvolvam habilidades de liderança e gestão.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A fim de obter um processo mais organizado, optamos por utilizar o Github para atribuir tarefas aos membros do grupo. Organizadas em:
 
+- Backlog: Representa todas as tarefas que precisam ser realizadas ao decorrer do projeto;
+- Ready: Tarefas que foram filtradas do backlog do produto e iram ser desenvolvidas ao decorrer da sprint;
+- In Progress: Tarefas da coluna “backlog da sprint” que já foram iniciadas;
+- In Review: Tarefas finalizadas, mas que ainda não foram revisadas.
+
+O quadro Kanban desenvolvido pelo grupo pode ser acessado clicando [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1617). Abaixo, é possível ver uma representação dele. 
+
+![Quadro Kanban](/docs/img/Kanban-planit.png)
+ 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas utilizadas ao longo do projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código;
+- Ferramentas de comunicação;
+- Ferramentas de design;
+- Ferramentas de diagramação.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+A escolha do editor de código foi motivada pelo impacto direto no controle de versionamento do projeto, garantindo rastreabilidade e organização no desenvolvimento. Além disso, o uso de ferramentas de comunicação, tanto para troca de mensagens instantâneas quanto para reuniões diárias, tornou-se essencial para promover a integração e o alinhamento entre os membros da equipe. Para a etapa de design, ferramentas específicas foram utilizadas na prototipação inicial da solução, permitindo a edição simultânea por um ou mais integrantes, o que favoreceu a colaboração e agilidade no processo criativo. Por fim, uma ferramenta de diagramação foi selecionada para mapear as necessidades do produto, proporcionando uma visão clara e estruturada do que está sendo desenvolvido. 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+| CATEGORIA | FERRAMENTA | JUSTIFICATIVA | 
+|------------|---------------| ----------- |
+| Editor de Código | VS Code | Escolhido por ser um editor leve, altamente personalizável e com suporte a extensões que aumentam a produtividade, como integração com Git, depuração e linting. |
+| Editor de código | Expo | Utilizado para desenvolvimento de aplicações mobile com React Native, oferecendo um ambiente de desenvolvimento simplificado, com hot reloading e acesso a APIs nativas sem necessidade de configuração complexa. |
+| Comunicação| Discord, WhatsApp, Microsoft Teams | Facilidade de uso e colaboração em tempo real. |
+| Controle de Versão | Git e Github | Padrão da indústria e facilidade de colaboração. |
+| Wireframing | Figma | Colaboração em tempo real e recursos avançados de prototipagem. |
+| Diagrama | Lucid app | Escolhido por ser uma ferramenta de diagramação colaborativa em tempo real, com uma interface intuitiva e suporte a diversos tipos de diagramas (fluxogramas, wireframes, UML, etc.). |
+| Diagrama | Merma Id | Utilizado para criação de diagramas diretamente em arquivos Markdown, permitindo versionamento junto com o código e integração em documentações técnicas. |
+| Hospedagem |  |  |
