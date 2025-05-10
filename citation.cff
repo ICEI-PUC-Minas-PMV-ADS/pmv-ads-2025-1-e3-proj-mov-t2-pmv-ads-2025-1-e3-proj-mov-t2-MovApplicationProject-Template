@@ -1,29 +1,25 @@
 message: Please cite this software using these metadata.
-title:
+title: Wally
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Silveira Almeida Moura
+    given-names: Ariane
+  - family-names: Rodrigues de Figueiredo Lage
+    given-names: Raphael
+  - family-names: Lima de Andrade Vieira 
+    given-names: Alexsander
+  - family-names: Simões dos Santos 
+    given-names: Vinicius 
+  - family-names: Gomes dos Santos
+    given-names: Danielle 
+  - family-names: Barboza da Gama dos Reis Silva
+    given-names: Estevão
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Fritzke Junior
+    given-names: Udo
 keywords:
-  - 
-  - 
-repository-code: 
+  - Gestão Financeira
+  - Carteira
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e3-proj-mov-t2-wally
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2025-02-17
