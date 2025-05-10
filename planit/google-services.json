@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1018099220762",
+    "project_id": "planit-bfa38",
+    "storage_bucket": "planit-bfa38.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018099220762:android:280df595019888a4652ca3",
+        "android_client_info": {
+          "package_name": "com.planit.planit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018099220762-1dkssql8r3c8lk21sk9r38oj39lpe297.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.planit.planit",
+            "certificate_hash": "71830afefebf8f34f88ba03e85126d65fe0809ce"
+          }
+        },
+        {
+          "client_id": "1018099220762-qnt2iljavf4ivoju7kbvjkkoa97u8q7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQq-BTv_Hv4z87HaDBL8m3TGAjPhhpVr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018099220762-qnt2iljavf4ivoju7kbvjkkoa97u8q7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,17 @@
 # Registro de Testes de Usabilidade
+## Fluxo de Login
+Aplicativo: Planit
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+Data: 10/05/2025
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+## Vídeo Demonstrativo
+▶️ Assistir ao vídeo do teste (0:51) 
+([link](https://github.com/user-attachments/assets/a39d7be2-3e0c-4a8d-b804-fd9f3af314bf))
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+## Métricas de Usabilidade
+| Métrica | Resultado Médio |
+|----------|----------------|
+| Taxa de Sucesso % | 100% |
+| Tempo médio para login | 2 segundos |
+| Número de erros | 0 |
+| Satisfação (escala 1-5) | 5 |
