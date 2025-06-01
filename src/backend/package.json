@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "jose": "^6.0.11",
+    "next": "^15.3.2",
+    "pg": "^8.15.6",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/pg": "^8.15.1",
+    "@types/react": "^19",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5"
+  }
+}

@@ -1,75 +1,159 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+| Perfis de Administrador | Perfil de Cliente |
+|-------------------------|--------------------|
+| Usuário responsável pelo gerenciamento e abastecimento do site. | Usuário que irá utilizar o conteúdo e a interface como consumidor.|
+| Abastecer a página inicial com informações de notícias atualizadas, verificadas e que promovam interesse pela plataforma. | Ter acesso ao seu perfil próprio, onde consiga visualizar e programar suas rotinas de treino de forma centralizada e intuitiva. |
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| **João - Gerente de Academia** | ![João - Gerente de Academia](https://github.com/user-attachments/assets/20545550-4d50-443e-8fb4-31708ee3d0f5) |
+|-------------------------------|------------------------------------------------------------|
+| **Idade:**                     | 35 anos                                                    |
+| **Ocupação:**                  | Gerente de Academia                                         |
+| **Necessidades:**              | Sistema simples e eficiente para gerenciar cadastros e documentos dos alunos. |
+| **Frustrações:**               | Processos manuais e perda de dados em sistemas desatualizados. |
+| **Hobbies:**                   | Natação, futebol                                            |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| **Maria - Aluna**              | ![Maria - Aluna](https://github.com/user-attachments/assets/568ce894-ec57-4fb9-b986-c90249a38b9d)  |
+|-------------------------------|------------------------------------------------------------|
+| **Idade:**                     | 28 anos                                                    |
+| **Ocupação:**                  | Aluna                                                      |
+| **Necessidades:**              | Acessar facilmente suas informações de cadastro e planos.  |
+| **Frustrações:**               | Dificuldade em acessar informações sobre seu plano de treino e pagamentos. |
+| **Hobbies:**                   | Correr, yoga                                                |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| **Carlos - Proprietário de Academia** | ![Carlos - Proprietário de Academia](https://github.com/user-attachments/assets/c29c537c-a421-4882-af78-3205e380e914) |
+|--------------------------------------|-------------------------------------------------------------|
+| **Idade:**                          | 45 anos                                                     |
+| **Ocupação:**                       | Proprietário de Academia                                    |
+| **Necessidades:**                   | Sistema eficiente para controlar planos, pagamentos e cadastros de alunos. |
+| **Frustrações:**                    | Falta de uma solução integrada para gerenciar a academia.   |
+| **Hobbies:**                        | Golfe, leitura de livros de gestão                          |
+
+| **Juliana - Aluna Iniciante**       | ![Juliana - Aluna Iniciante](https://github.com/user-attachments/assets/a8a9bf23-ce19-4993-b4dd-9a2cbd970cde)  |
+|-------------------------------------|-------------------------------------------------------------|
+| **Idade:**                          | 22 anos                                                     |
+| **Ocupação:**                       | Aluna                                                       |
+| **Necessidades:**                   | Acesso fácil ao seu progresso, planos e sugestões de treino.|
+| **Frustrações:**                    | Dificuldade em entender seu plano de treino e acompanhar seu progresso. |
+| **Hobbies:**                        | Dança, caminhada                                             |
+
+| **Ricardo - Recepcionista de Academia** | ![Ricardo - Recepcionista](https://github.com/user-attachments/assets/7cadd68c-f62e-4bf9-98e6-1a25ac8cda8c) |
+|----------------------------------------|-------------------------------------------------------------|
+| **Idade:**                             | 30 anos                                                     |
+| **Ocupação:**                          | Recepcionista de Academia                                   |
+| **Necessidades:**                      | Sistema rápido para registrar novos membros e organizar planos e pagamentos. |
+| **Frustrações:**                       | Falta de um sistema centralizado, causando lentidão no atendimento. |
+| **Hobbies:**                           | Cinema, culinária                                            |
+                   
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| **EU COMO...** `Aluna`                  | **QUERO/PRECISO** acessar facilmente minhas informações de cadastro e plano de treino | **PARA** poder acompanhar meu progresso e garantir que estou seguindo corretamente as orientações |
+|-----------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **EU COMO...** `Aluna`                  | **QUERO/PRECISO** consultar o seu plano atual.                      | **PARA** ter controle financeiro e saber quando precisar renovar.                                  |
+| **EU COMO...** `Gerente de Academia`    | **QUERO/PRECISO** adicionar e atualizar os cadastros de novos alunos.                    | **PARA** manter as informações da academia sempre atualizadas.                                   |
+| **EU COMO...** `Proprietário de Academia` | **QUERO/PRECISO** ver relatórios de desempenho financeiro da academia.                  | **PARA** poder tomar decisões estratégicas para melhorar os lucros e serviços oferecidos.          |
+| **EU COMO...** `Proprietário de Academia` | **QUERO/PRECISO** editar planos de treino e serviços oferecidos.                        | **PARA** personalizar conforme as necessidades da academia.                                       |
+| **EU COMO...** `Recepcionista de Academia` | **QUERO/PRECISO** registrar novos membros rapidamente.                                  | **PARA** facilitar o processo de matrícula.                                                         |
+| **EU COMO...** `Recepcionista de Academia` | **QUERO/PRECISO** acessar rapidamente o planos dos alunos.          | **PARA** fornecer um atendimento mais eficiente.                                                   |
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Problemas Identificados:
+
+  Métodos Manuais ou Obsoletos:
+  Muitas academias utilizam anotações em papel ou sistemas desatualizados para gerenciar o cadastro dos usuários e de atividades, o que dificulta o controle e a atualização dos dados.
+  
+  Organização e Acessibilidade dos Dados:
+  A ausência de um sistema integrado resulta em informações dispersas, dificultando o acesso rápido e seguro tanto para a administração quanto para os alunos.
+  
+  Atrasos no Atendimento:
+  Processos manuais podem causar lentidão no cadastro e atualização de informações, impactando negativamente a experiência dos usuários.
+  
+  Riscos de Erros e Falhas:
+  A manipulação manual dos dados aumenta a possibilidade de erros, como cadastros duplicados ou informações incorretas, comprometendo a eficiência da gestão.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Resumo da Proposta:
 
-### Processo 1 – NOME DO PROCESSO
+  O projeto propõe o desenvolvimento de um aplicativo móvel para academias que visa modernizar e otimizar a gestão dos cadastros de usuários e de treinos executados pelos alunos. A ferramenta será voltada tanto para a administração (que terá um sistema seguro para armazenamento e gerenciamento dos dados) quanto para os alunos (que terão acesso fácil e intuitivo às suas informações e seus treinos).
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Limites e Conexões com a Estratégia de Negócio:
 
-![Processo 1](img/02-bpmn-proc1.png)
+  Limites:
+  O sistema focará inicialmente na gestão de cadastros e atualização de informações do usuário e de seus treinos. Funcionalidades extras, como agendamento de aulas ou controle de pagamentos, poderão ser implementadas em fases posteriores, de acordo com a evolução e as necessidades do negócio.
 
-### Processo 2 – NOME DO PROCESSO
+Estratégia e Objetivos:
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+Objetivo Principal: Resolver os desafios atuais na gestão das academias, proporcionando agilidade e segurança para a academia e seus usuários.
 
-![Processo 2](img/02-bpmn-proc2.png)
+Objetivos Específicos:
+
+  Implementar um sistema que centralize os dados dos usuários.
+  
+  Desenvolver uma interface intuitiva que facilite a visualização e a interatividade dos alunos.
+  
+Oportunidades de Melhoria:
+
+  Automatização dos Processos:
+  Eliminar etapas manuais por meio da automação, reduzindo erros e aumentando a eficiência.
+  
+  Acesso em Tempo Real:
+  Permitir que tanto a administração quanto os alunos tenham acesso instantâneo às informações, promovendo uma experiência mais dinâmica e interativa.
+  
+  Segurança dos Dados:
+  Implantar práticas de segurança modernas para proteger os dados sensíveis dos usuários, garantindo conformidade com as melhores práticas e legislações vigentes.
+
+### Processo 1 – Cadastro e Gestão de Usuários
+
+Nome do Processo: Cadastro e Gestão de Usuários
+
+Oportunidades de Melhoria Identificadas:
+
+  Centralização de Dados:
+  Transição de sistemas manuais ou desconexos para uma base única e integrada.
+  
+  Automação do Fluxo de Cadastro:
+  Implementar etapas automatizadas que reduzam a intervenção manual e, consequentemente, erros e atrasos.
+  
+  Interface Amigável e Responsiva:
+  Desenvolver uma interface intuitiva para que os usuários possam atualizar suas informações de forma autônoma e segura.
+
+  ![image](https://github.com/user-attachments/assets/c0f9dd89-c6e3-4c0c-b46d-fe7f028d4ad0)
+
+
+### Processo 2 – Acesso e Atualização da Ficha de Treino
+
+Nome do Processo: Acesso e Atualização da Ficha de Treino
+
+Oportunidades de Melhoria:
+
+  Atualização em Tempo Real:
+  Permitir que o profissional acompanhe e atualize as informações dos treinos conforme a evolução dos alunos, garantindo maior precisão nos dados.
+  
+  Comunicação Direta:
+  Facilitar a interação entre o profissional e o aluno, possibilitando feedbacks e ajustes rápidos no plano de treino.
+  
+  Gestão unificada do usuário:
+  Vincular a ficha de treino com o cadastro dos usuários, centralizando informações e facilitando a gestão geral da academia.
+
+  ![image](https://github.com/user-attachments/assets/eb9c1c5a-fa88-42de-908c-dccbc4ebe618)
+
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+| Nº | INDICADOR                          | OBJETIVOS                                                | DESCRIÇÃO                                                                 | CÁLCULO                                                                            | FONTE DE DADOS                               | PERSPECTIVA  |
+|----|------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|--------------|
+| 1  | TEMPO MÉDIO PARA CADASTRO          | Reduzir o tempo gasto no processo de cadastramento       | Tempo médio que um funcionário leva para cadastrar um aluno               | Tempo total para cadastro manual / digital ÷ nº de cadastros                      | Observação direta e testes no sistema         | Processo     |
+| 2  | ECONOMIA OPERACIONAL               | Avaliar o impacto do sistema na redução de custos        | Compara o custo do processo manual com o custo do processo digital        | (Custo manual - Custo digital) / Custo manual × 100                               | Relatórios financeiros e operacionais         | Negócios     |
+| 3  | TAXA DE SATISFAÇÃO DO USUÁRIO      | Medir a satisfação dos alunos com o sistema              | Percentual de alunos satisfeitos com o uso do sistema                     | Nº de alunos satisfeitos / Nº total de alunos pesquisados × 100                  | Formulário de feedback dos usuários           | Cliente      |
+| 4  | TAXA DE ERROS NO CADASTRO          | Reduzir falhas no preenchimento de dados                 | Percentual de cadastros com erros (campos faltando, dados inválidos etc.) | Nº de cadastros com erro / Nº total de cadastros × 100                           | Banco de dados do sistema                     | Qualidade    |
+| 5  | TEMPO DE ACESSO ÀS INFORMAÇÕES     | Melhorar a eficiência na consulta de dados do aluno      | Tempo médio para acessar informações como plano e matrícula               | Soma dos tempos de acesso / Nº de acessos                                         | Logs do sistema                               | Técnico     |
 
 ## Requisitos
 
@@ -77,97 +161,99 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                                           | Prioridade |
+|--------|------------------------------------------------------------------|------------|
+| RF-001 | Permitir que o ADM mude as fichas de treino disponiveis.      | ALTA       |
+| RF-002 | Permitir que o ADM mude planos dos alunos. | ALTA       |
+| RF-003 | Permitir que o aluno consulte suas informações de cadastro.      | ALTA       |
+| RF-004 | Permitir que o aluno mude sua meta de treinos mensais.             | ALTA       |
+| RF-005 | Permitir que o aluno consulte suas fichas de treino.             | ALTA       |
+| RF-006 | Permitir que a ADM edite as suas informações pessoais dos aluno.  | MÉDIA      |
+| RF-007 | Permitir que o aluno visualize seu plano.                      | MÉDIA      |
+| RF-008 | Permitir que o ADM visualize o plano de cada aluno. | ALTA       |
+| RF-009 | Permitir que a ADM faça a matrícula dos alunos.               | ALTA       |
+| RF-010 | Permitir que o aluno marque aulas com os treinadores disponíveis. | MÉDIA      |
+| RF-011 | Permitir que o aluno visualize os dias em que foi treinar.              | MÉDIA      |
+| RF-012 | Permitir que o usuário entre em sua conta com um login simples (e-mail e senha). | ALTA       |
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID    | Descrição do Requisito                                         | Prioridade |
+|-------|---------------------------------------------------------------|------------|
+| RNF-001| O sistema deve ser responsivo para dispositivos móveis.       | MÉDIA      |
+| RNF-002| A aplicação deve ser compatível com os navegadores mais usados.| ALTA       |
+| RNF-003| O sistema deve carregar em até 3 segundos.                    | ALTA       |
+| RNF-004| O sistema deve ser seguro, protegendo os dados do usuário.    | ALTA       |
+| RNF-005| O sistema deve ser fácil de usar.                             | MÉDIA      |
+| RNF-006| O sistema deve funcionar sem erros em diferentes dispositivos.| BAIXA      |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                 |
+|--|---------------------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre letivo              |
+|02| O sistema deve ser desenvolvido exclusivamente pelos integrantes do grupo |
+|03| O sistema deve ser compatível com dispositivos móveis                     |
+|04| O projeto deve ser desenvolvido com ferramentas e tecnologias gratuitas   |
+|05| O sistema deve possuir uma interface simples e de fácil utilização        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+![image](https://github.com/user-attachments/assets/1f05e2db-cc32-4d70-a1b7-fdd57b9e005d)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+![matriz_rastreabilidade_completa](https://github.com/user-attachments/assets/4d36d027-a9cb-44be-81de-5feb2926632d)
 
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Este projeto será gerenciado conforme as boas práticas definidas pelo PMBoK (6ª edição), focando especialmente nas áreas mais críticas para sua execução bem-sucedida: **Integração, Escopo, Cronograma (Tempo), Qualidade, Comunicação e Partes Interessadas**.
+
+O gerenciamento ocorrerá de maneira integrada, compreendendo que alterações em uma área influenciam diretamente outras áreas relacionadas.
+
+### Áreas Prioritárias:
+
+- **Integração:** Reuniões periódicas para assegurar alinhamento e coerência entre os diversos aspectos do projeto e objetivos estratégicos.
+- **Escopo:** Controle rigoroso das funcionalidades, garantindo a entrega completa dos requisitos essenciais antes de aceitar novas demandas.
+- **Cronograma:** Acompanhamento semanal utilizando ferramentas como gráfico de Gantt para manter as entregas dentro do prazo.
+- **Qualidade:** Testes regulares para garantir o cumprimento dos requisitos funcionais e não funcionais definidos.
+- **Comunicação:** Comunicação frequente e clara com todas as partes interessadas por meio de relatórios semanais de progresso.
+- **Partes Interessadas:** Engajamento ativo e constante comunicação com stakeholders (administradores, clientes e equipe de desenvolvimento).
+
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+O gerenciamento de tempo será realizado utilizando ferramentas tradicionais como o Diagrama de Rede e o Gráfico de Gantt.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+### Diagrama de Rede
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+Será utilizado para visualizar claramente as tarefas, identificar dependências e definir o caminho crítico para o projeto. Utilizará a notação francesa pela clareza na representação gráfica das atividades e dependências.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+- **Identificação das tarefas:** Definir e descrever claramente cada atividade necessária.
+- **Dependências entre tarefas:** Indicar claramente quais atividades são dependentes umas das outras para evitar bloqueios.
+- **Caminho Crítico:** Monitoramento constante das tarefas críticas, garantindo o cumprimento dos prazos.
+
+### Gráfico de Gantt
+
+Ferramenta visual essencial para controlar o cronograma, mostrando as datas previstas de início e fim para cada tarefa, facilitando o acompanhamento contínuo do progresso do projeto.
+
+- **Listagem clara das atividades:** Descrição detalhada das atividades e principais marcos.
+- **Estimativa realista dos tempos:** Cada atividade terá tempo estimado com base na capacidade produtiva da equipe.
+- **Monitoramento semanal:** Revisão periódica para garantir o cumprimento do cronograma estabelecido.
+
+Dessa forma, a equipe terá controle total sobre o andamento do projeto, garantindo entregas organizadas e pontuais.
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
+![image](https://github.com/user-attachments/assets/dfaa5d3c-4a06-4536-aee2-96e3c319a489)
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+![image](https://github.com/user-attachments/assets/b4d9f100-2bd0-4ac5-9a83-99a39e01321d)
 
-![Orçamento](img/02-orcamento.png)

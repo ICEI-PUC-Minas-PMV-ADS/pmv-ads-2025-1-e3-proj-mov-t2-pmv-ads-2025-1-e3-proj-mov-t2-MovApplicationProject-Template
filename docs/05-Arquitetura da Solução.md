@@ -1,68 +1,117 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Esta seção descreve a estrutura técnica da solução proposta, abrangendo desde a modelagem conceitual até a implementação física dos componentes. São apresentados o diagrama de classes, o modelo entidade-relacionamento (ER), o esquema relacional, além da arquitetura de hospedagem da aplicação. Também são detalhadas as tecnologias empregadas no desenvolvimento, ilustrando como elas se integram para atender aos requisitos do sistema.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+
+![image](https://github.com/user-attachments/assets/f9f3d92f-f031-4ffe-8168-b5e75b450149)
 
 ## Diagrama de Classes
+![gymtrack_pro_class_diagram](https://github.com/user-attachments/assets/9cd63745-c8f0-43ec-aede-8937adefe974)
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+![Modelo ER](https://github.com/user-attachments/assets/0ca3f55f-ec52-4035-b805-43c795931049)
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+![Relacional](https://github.com/user-attachments/assets/2c0afe69-30a0-4806-a831-326a7b2b5c0d)
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
 ## Modelo Físico
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
-## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+No desenvolvimento do projeto **Gymtrack-Pro**, adotamos alguns aspectos de qualidade baseados na norma ISO/IEC 25010. A ideia é que, mesmo sendo um projeto acadêmico, possamos garantir que o software atenda às necessidades dos usuários e dos stakeholders. A seguir, descrevemos as principais sub-características de qualidade escolhidas, suas justificativas e as métricas que utilizaremos para avaliá-las.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+---
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+## 1. Funcionalidade
+- **Sub-características:**
+  - *Completude Funcional*: Garantir que todas as funções definidas nos requisitos sejam implementadas.
+  - *Exatidão Funcional*: As funções devem executar corretamente as tarefas para as quais foram projetadas.
+- **Justificativa:**
+  A funcionalidade é a base do sistema. Se as funções principais não estiverem implementadas ou funcionarem errado, o software não cumprirá seu objetivo.
+- **Métricas Sugeridas:**
+  - Percentual de requisitos implementados conforme o que foi planejado.
+  - Número de defeitos encontrados durante os testes.
+  - Taxa de sucesso na execução dos casos de uso.
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+---
+
+## 2. Usabilidade
+- **Sub-características:**
+  - *Capacidade de Aprendizagem*: Facilidade com que novos usuários aprendem a usar o sistema.
+  - *Operabilidade*: Simplicidade e facilidade de uso, diminuindo erros durante a utilização.
+- **Justificativa:**
+  Uma interface amigável é importante para que os usuários consigam usar o **Gymtrack-Pro** sem dificuldades, o que é fundamental em um aplicativo de organização.
+- **Métricas Sugeridas:**
+  - Tempo médio para a realização das tarefas mais importantes.
+  - Índice de satisfação dos usuários.
+  - Quantidade de erros cometidos pelos usuários ao usar o sistema.
+
+---
+
+## 3. Desempenho
+- **Sub-características:**
+  - *Tempo de Resposta*: Velocidade com que o sistema responde às ações dos usuários.
+  - *Utilização de Recursos*: Eficiência no uso de memória e processamento.
+- **Justificativa:**
+  Um bom desempenho evita que o aplicativo fique lento ou trave, proporcionando uma melhor experiência de uso, principalmente em dispositivos móveis.
+- **Métricas Sugeridas:**
+  - Tempo médio de resposta.
+  - Número de operações realizadas por unidade de tempo.
+  - Monitoramento do uso de recursos, como CPU e memória.
+
+---
+
+## 4. Confiabilidade
+- **Sub-características:**
+  - *Disponibilidade*: O sistema deve estar sempre disponível para os usuários.
+  - *Maturidade*: O sistema deve apresentar poucos erros durante o uso.
+  - *Capacidade de Recuperação*: Rapidez e eficiência na recuperação após eventuais falhas.
+- **Justificativa:**
+  Para que os usuários confiem no **Gymtrack-Pro**, é necessário que o sistema funcione de forma contínua e consiga se recuperar rapidamente em caso de problemas.
+- **Métricas Sugeridas:**
+  - Número de falhas ou incidentes por período.
+  - MTBF.
+  - MTTR.
+
+---
+
+## 5. Segurança
+- **Sub-características:**
+  - *Confidencialidade*: Proteção dos dados contra acessos não autorizados.
+  - *Integridade*: Garantir que os dados não sejam alterados indevidamente.
+  - *Autenticidade*: Verificação da identidade dos usuários.
+- **Justificativa:**
+  A segurança é fundamental, pois o **Gymtrack-Pro** pode conter dados pessoais e informações importantes dos usuários. Assim, é preciso protegê-los para manter a confiança no sistema.
+- **Métricas Sugeridas:**
+  - Número de vulnerabilidades encontradas e corrigidas.
+  - Tempo para aplicar correções de segurança.
+  - Conformidade com boas práticas e normativas de segurança.
+
+---
+
+## 6. Manutenibilidade
+- **Sub-características:**
+  - *Modularidade*: Estruturação do código em partes independentes para facilitar alterações e expansões.
+  - *Testabilidade*: Facilidade para criar e executar testes que garantam o funcionamento do sistema.
+- **Justificativa:**
+  Um código bem organizado e testado torna o sistema mais fácil de manter e atualizar, o que é importante tanto para a evolução do projeto quanto para correção de eventuais erros.
+- **Métricas Sugeridas:**
+  - Complexidade do código.
+  - Percentual de cobertura dos testes automatizados.
+  - Tempo médio para corrigir defeitos reportados.
