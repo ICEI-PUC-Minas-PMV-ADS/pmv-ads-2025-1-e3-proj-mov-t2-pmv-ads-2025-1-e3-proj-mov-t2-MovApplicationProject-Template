@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/* Container principal */
+.calendar-container {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  /* Container do calendário */
+  .react-calendar {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    width: 97%;
+  }
+  
+  /* Barra de navegação */
+  .react-calendar__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Botões de navegação */
+  .react-calendar__navigation button {
+    background: none;
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  /* Título (mês/ano) */
+  .react-calendar__navigation__label {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    pointer-events: none;
+  }
+  
+  /* Ícones */
+  .react-calendar__navigation__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .react-calendar__navigation__prev-button ion-icon {
+    color: #db2777; 
+    font-size: 1.25rem;
+  }
+  
+  .react-calendar__navigation__next-button ion-icon {
+    color: #db2777; 
+    font-size: 1.25rem;
+  }
+  
+  .react-calendar__navigation__prev2-button ion-icon {
+    color: #047857; 
+    font-size: 1.25rem;
+  }
+  
+  .react-calendar__navigation__next2-button ion-icon {
+    color: #047857; 
+    font-size: 1.25rem;
+  }
+  
+
+  .react-calendar__month-view__weekdays {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #4b5563; 
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+    padding: 0.5rem;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+  }
+  
+  /* Dias do mês */
+  .react-calendar__tile {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #f3f4f6;
+  }
+
+  .selected-day {
+    background-color: #ec4899; /* rosa (Tailwind: pink-500) */
+    color: white !important;
+    border-radius: 50% !important;
+  }
+
+  .today {
+    background-color: #d1fae5; /* Tailwind: green-100 */
+    border-radius: 50%;
+  }
+  
+  

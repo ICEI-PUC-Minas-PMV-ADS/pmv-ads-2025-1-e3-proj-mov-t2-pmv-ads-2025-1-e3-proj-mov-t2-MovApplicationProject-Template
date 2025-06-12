@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "planit",
+    "slug": "planit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logoRosa.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mauricio.planit",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logoRosa.png",
+        "backgroundColor": "#ffffff"
+      }
+      
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logoRosa.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logoRosa.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/inter/Inter_100Thin.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_200ExtraLight.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_300Light.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_400Regular.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_500Medium.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_700Bold.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_800ExtraBold.ttf",
+            "node_modules/@expo-google-fonts/inter/Inter_900Black.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b5f37b72-2d00-4c51-b539-83a58fd05afd"
+      }
+    }
+  }
+}
