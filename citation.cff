@@ -1,29 +1,31 @@
 message: Please cite this software using these metadata.
-title:
+title: PlanIt
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Avelino Rodrigues
+    given-names: Emily Gabriela
+  - family-names: de Paula 
+    given-names: Estefany Bianca
+  - family-names: Alves de Azevedo Neto 
+    given-names: Mauricio Thales
+  - family-names: Braga da Silva
+    given-names: Vitor Hugo
+  - family-names: Rodrigues Antunes
+    given-names: Maria Eduarda
+  - family-names: Santos de Paula
+    given-names: Ana Clara 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Fritzke Junior
+    given-names: Udo
 keywords:
-  - 
-  - 
-repository-code: 
+  - "Gestão de Agenda"
+  - "Agendamento Digital"
+  - "Notificações em Tempo Real"
+  - "Integração de Agendas"
+  - "Produtividade"
+  - "Experiência do Cliente"
+  - "Organização de Compromissos"
+  - "Inovação"
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e3-proj-mov-t2-planit/tree/main
 version: 1.0.0
 date-released: 2023-10-31
