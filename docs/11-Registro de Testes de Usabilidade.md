@@ -1,8 +1,104 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+## Fluxo de Login
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+Aplicativo: Planit
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Data: 10/05/2025
+
+## Vídeo Demonstrativo
+
+<video controls src=https://github.com/user-attachments/assets/a39d7be2-3e0c-4a8d-b804-fd9f3af314bf></video>
+
+## Métricas de Usabilidade
+
+| Métrica                 | Resultado Médio |
+| ----------------------- | --------------- |
+| Taxa de Sucesso %       | 100%            |
+| Tempo médio para login  | 2 segundos      |
+| Número de erros         | 0               |
+| Satisfação (escala 1-5) | 5               |
+
+---
+
+## Fluxo de Agendamento
+
+WebSite: Planit-Web
+
+Data: 31/05/2025
+
+## Vídeo Demonstrativo
+
+<video controls src=https://github.com/user-attachments/assets/c2452f33-69f5-4a69-9330-fd82b4eb87ae ></video>
+
+## Métricas de Usabilidade
+
+| Métrica                 | Resultado Médio |
+| ----------------------- | --------------- |
+| Taxa de Sucesso %       | 100%            |
+| Tempo médio para login  | 50 segundos     |
+| Número de erros         | 0               |
+| Satisfação (escala 1-5) | 5               |
+
+---
+
+## Fluxo de Cadastramento de Horario
+
+Aplicativo: Planit
+
+Data: 31/05/2025
+
+## Vídeo Demonstrativo
+
+<video controls src=https://github.com/user-attachments/assets/4011ab6f-42d4-4264-ba09-94a01b59cade ></video>
+
+## Métricas de Usabilidade
+
+| Métrica                 | Resultado Médio |
+| ----------------------- | --------------- |
+| Taxa de Sucesso %       | 100%            |
+| Tempo médio para login  | 50 segundos     |
+| Número de erros         | 0               |
+| Satisfação (escala 1-5) | 5               |
+
+---
+
+## 👤 Fluxo de CRUD de Usuário (Criar, Ler, Atualizar, Deletar)
+
+**Aplicativo:** Planit  
+**Data:** 01/06/2025
+
+### 🎥 Vídeo Demonstrativo
+
+<video controls src="https://github-production-user-asset-6210df.s3.amazonaws.com/99978185/449855372-bdd05479-0acb-459d-8201-f1e9569126c8.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250601T220003Z&X-Amz-Expires=300&X-Amz-Signature=9e77afeb42edcaa895c28ccb81b53db6a56edd1745a9860a773f025448c7efb8&X-Amz-SignedHeaders=host" title="**Adicionar o link aqui**"></video>
+
+### 📊 Métricas de Usabilidade
+
+| Métrica                  | Resultado Médio |
+| ------------------------ | --------------- |
+| Taxa de Sucesso (%)      | 100%            |
+| Tempo médio por operação | 2 segundos      |
+| Número de erros          | 0               |
+| Satisfação (1-5)         | 5               |
+
+---
+
+## Fluxo de Cadastro de serviços
+
+**Aplicativo:** Planit  
+**Data:** 01/06/2025
+
+### 🎥 Vídeo Demonstrativo
+
+<video width=380 height=900 controls src=https://github.com/user-attachments/assets/3fdf1c0a-67fb-402a-a3b3-ed6bb35093d6 ></video>
+
+### 📊 Métricas de Usabilidade
+
+| Métrica                  | Resultado Médio |
+| ------------------------ | --------------- |
+| Taxa de Sucesso (%)      | 100%            |
+| Tempo médio por operação | 2 segundos      |
+| Número de erros          | 0               |
+| Satisfação (1-5)         | 5               |
+
+---

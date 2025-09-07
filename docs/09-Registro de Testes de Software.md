@@ -1,12 +1,50 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## Relatório de Testes de Software
+Aplicação: PlanIt
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+Data: 01/06/2025
 
-## Avaliação
+## Resumo Executivo
+Total de casos de teste executados: 4
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Taxa de sucesso: 100%
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+## Evidências dos Testes - Resultados por Requisito
+
+| Requisito | Cenário Testado | Status | Evidência|
+|-----------|-----------------| ------ |----------|
+| RF-001 | Cadastro | ✅Aprovado | Vídeo (documentação "Registro de Testes de Usabilidade") |
+| RF-010 | Agendamento de Serviço | ✅Aprovado | Vídeo (documentação "Registro de Testes de Usabilidade") |
+| RF-010 | Cadastro de Horario | ✅Aprovado | Vídeo (documentação "Registro de Testes de Usabilidade") |
+| RF-011 | Cadastro de Serviço | ✅Aprovado | Vídeo (documentação "Registro de Testes de Usabilidade") |
+
+## Análise Crítica
+### Pontos Fortes
+✅ Intuitividade do fluxo de cadastro (RF-001):
+
+-100% dos usuários concluíram o cadastro sem ajuda;
+
+-Feedback visual claro (ícones de validação em tempo real).
+
+
+✅ Facilidade no processo de agendar um serviço
+
+-100% dos usuários concluíram o agendamento sem ajuda;
+
+-Feedback visual claro (ícones de validação em tempo real).
+
+
+✅ Facilidade com o cadastramento de horario
+
+100% dos usuários concluíram o cadastro de horários sem ajuda;
+
+-Feedback visual claro (ícones de validação em tempo real).
+
+
+✅ Facilidade com o cadastro e edição de serviços
+
+100% dos usuários concluíram o cadastro e edição de serviços sem problemas;
+
+-Feedback visual claro (ícones de validação em tempo real).
