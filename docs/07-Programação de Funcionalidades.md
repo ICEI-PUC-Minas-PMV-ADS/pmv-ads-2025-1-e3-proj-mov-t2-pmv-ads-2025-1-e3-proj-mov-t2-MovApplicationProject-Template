@@ -6,10 +6,14 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+| ID     | Descrição do Requisito                                                                                   | ARTEFATOS PRODUZIDOS                     | ALUNO(A) RESPONSÁVEL |
+| ------ | -------------------------------------------------------------------------------------------------------- | ---------------------------------------- | -------------------- |
+| RF-001 | A aplicação deve permitir criar uma conta                                                                | Login.tsx, loginGoogle.tsx, Register.tsx | Maria / Mauricio     |
+| RF-002 | A aplicação deve permitir a exclusão da conta                                                            | Configuracao.tsx                         | Maria                |
+| RF-003 | A aplicação deve permitir editar o perfil do usuário                                                     | Conta.tsx                                | Maria / Ana          |
+| RF-004 | A aplicação deve permitir consultar históricos de agendamentos                                           | Clientes.tsx                             | Maurício             |
+| RF-005 | A aplicação deve permitir que o usuário gerencie horários disponíveis                                    | _layout.tsx, Agenda.tsx, Index.tsx       | Estefany / Vitor     |
+| RF-006 | A aplicação deve permitir um sistema de notificações de compromissos agendados                           | Notificacao.tsx                          | Ana Clara / Maria    |
+| RF-007 | A aplicação deve permitir que os clientes marquem compromissos com os profissionais                      | Toda a pasta planit_web                  | Emily                |
+| RF-008 | A aplicação deve permitir que os clientes marquem compromissos com os profissionais                      | planit_web - Homepage.tsx                | Emily                |
+| RF-009 | A aplicação deve permitir que o usuário cadastre e edite serviços                                        | pasta planit                             | Maurício             |

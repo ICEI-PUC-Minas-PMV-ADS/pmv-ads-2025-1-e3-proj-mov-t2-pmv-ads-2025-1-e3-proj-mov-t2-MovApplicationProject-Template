@@ -1,7 +1,16 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+* Documentação Firebase:
+https://firebase.google.com/docs?hl=pt-br;
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+* Documentação React Native:
+https://reactnative.dev/docs/getting-started;
+
+* Documentação React:
+https://pt-br.legacy.reactjs.org/docs/getting-started.html;
+
+* Documentação Vite:
+https://pt.vite.dev/guide/;
+
+* Documentação Expo:
+https://docs.expo.dev/.
